@@ -1,5 +1,5 @@
 from jinja2 import Environment, BaseLoader, FileSystemLoader
-from Abilities.llm_current import OpenAi
+from llm_current.openai_client import OpenAi
 #Some Configuration
 apikey = 'sk-C6Qj454iHnDYekeH94358c7301534b99B42dE229A7E380Ca'
 baseurl = 'https://burn.hair/v1'

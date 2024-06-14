@@ -1,4 +1,4 @@
-from An_Shi.Abilities import Plan
+from Abilities.Plan import Plan
 
 name = 'Pangu'
 description = 'is a government official'
