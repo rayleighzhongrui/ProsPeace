@@ -8,7 +8,7 @@ class Plan:
     def __init__(self, api_key:str, base_model:str, base_url:str = None):
         self.llm = OpenAi(api_key=api_key, model_id=base_model, base_url=base_url)
         self.env = Environment(loader = FileSystemLoader('Abilities/Plan'))
-        self.template = self.env.get_template('Plan.jinja2')
+        self.template = self.env.get_template('Plan_ch.jinja2')
         
     def generate_plan(self, name:str, description:str, prompt:str):
         #渲染模板
